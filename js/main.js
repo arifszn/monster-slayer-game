@@ -17,7 +17,7 @@ new Vue({
     attack: function() {
       this.history++;
 
-      var randomNumber = Math.floor((Math.random() * 15) + 1);
+      var randomNumber = Math.floor((Math.random() * 12) + 1);
       this.playerHealth -= randomNumber;
 
       var randomNumber2 = Math.floor((Math.random() * 10) + 1);
